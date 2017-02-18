@@ -10,7 +10,7 @@ add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} GL glut GLEW)
 
 ## Compiler flags
-if(CMAKE_COMPILER_IS_GNUXX)
+if (CMAKE_COMPILER_IS_GNUXX)
     set(CMAKE_CXX_FLAGS "-O3")          ## Optimize
     set(CMAKE_EXE_LINKER_FLAGS "-s")    ## Strip binary
-endif()
+endif ()

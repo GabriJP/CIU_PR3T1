@@ -98,7 +98,7 @@ int main(int argc, char *argv[]) {
     glutDisplayFunc(Display);
     glutReshapeFunc(ReshapeSize);
 
-    glutCreateWindow("OpenGL Práctica 3_1. STROKE");
+    glutCreateWindow("OpenGL Práctica 3_1. STROKE.");
     InitGL();
     glutDisplayFunc(Display2);
     glutReshapeFunc(ReshapeSize);
