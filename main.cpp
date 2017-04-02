@@ -44,7 +44,7 @@ void writeStrokeString(float x, float y, void *font, char *string) {
 
 void Display() {
     glClear(GL_COLOR_BUFFER_BIT);
-    glColor3f(1.0, 0.0, 0.0);
+    glColor3f(1, 0, 0);
     writeBitmapString(0.0, 0.0, GLUT_BITMAP_TIMES_ROMAN_24, (char *) "Hola OpenGL!");
     glFlush();
 }
